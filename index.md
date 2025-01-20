@@ -39,7 +39,8 @@ Even at Low Temperature</h3>
       <h3>Learning Noisy Halfspaces with a Margin: Massart is No Harder than Random</h3>
       <p><b>Gautam Chandrasekaran</b>, Vasilis Kontonis, Konstantinos Stavropoulos, Kevin Tian</p>
       <p><em>NeurIPS 2024 (Spotlight)</em></p>
-     </div>
+       <a href="https://arxiv.org/abs/2501.09851" target="_self">arXiv</a>
+      </div>
     <!-- TDS LEARNING!-->
     <div class="publication-card">
       <h3>Efficient Discrepancy Testing for Learning with Distribution Shift</h3>
