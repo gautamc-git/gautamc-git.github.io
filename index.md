@@ -31,7 +31,7 @@ title: "Home"
       <h3>Learning the Sherrington-Kirkpatrick Model
 Even at Low Temperature</h3>
       <p><b>Gautam Chandrasekaran</b>, Adam Klivans</p>
-      <p><em>In Submission</em></p>
+      <p><em>STOC 2025</em></p>
       <a href="https://arxiv.org/abs/2411.11174" target="_self">arXiv</a>
          </div>
       <!-- MARGIN HALFSPACES-->
