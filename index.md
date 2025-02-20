@@ -34,6 +34,13 @@ Even at Low Temperature</h3>
       <p><em>STOC 2025 (to appear)</em></p>
       <a href="https://arxiv.org/abs/2411.11174" target="_self">arXiv</a>
          </div>
+  <!--SK MODEL-->
+         <div class="publication-card">
+      <h3>Learning Neural Networks with Distribution Shift: Efficiently Certifiable Guarantees</h3>
+      <p><b>Gautam Chandrasekaran</b>, Adam Klivans, Lin Lin Lee, Konstantinis Stavropoulos</p>
+      <p><em>ICLR 2025 (to appear)</em></p>
+         </div>
+    
       <!-- MARGIN HALFSPACES-->
      <div class="publication-card">
       <h3>Learning Noisy Halfspaces with a Margin: Massart is No Harder than Random</h3>
