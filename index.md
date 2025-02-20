@@ -40,7 +40,6 @@ Even at Low Temperature</h3>
       <p><b>Gautam Chandrasekaran</b>, Adam Klivans, Lin Lin Lee, Konstantinis Stavropoulos</p>
       <p><em>ICLR 2025 (to appear)</em></p>
          </div>
-    
       <!-- MARGIN HALFSPACES-->
      <div class="publication-card">
       <h3>Learning Noisy Halfspaces with a Margin: Massart is No Harder than Random</h3>
