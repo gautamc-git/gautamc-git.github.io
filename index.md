@@ -30,7 +30,7 @@ title: "Home"
          <div class="publication-card">
       <h3>Learning Juntas under Markov Random Fields</h3>
       <p><b>Gautam Chandrasekaran</b>, Adam Klivans</p>
-      <p><em>In Submission (to appear)</em></p>
+      <p><em>In Submission</em></p>
       <a href="https://www.arxiv.org/pdf/2506.00764" target="_self">arXiv</a>
          </div>
     <!--SK MODEL-->
