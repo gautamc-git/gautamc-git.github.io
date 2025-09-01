@@ -17,7 +17,7 @@ title: "Home"
     </div>
     <div class="right">
       <h2>About Me</h2>
-      <p>I am a third-year Ph.D student in the <a href="https://www.cs.utexas.edu/research/theoretical-computer-science" class="highlight-link" target="_self">Computer Science Theory Group</a> at UT Austin. I am fortunate to be advised by <a href="https://www.cs.utexas.edu/~klivans/" class="highlight-link"  target="_self">Adam Klivans</a> and <a href="https://www.cs.utexas.edu/~diz/" target="_self" class="highlight-link" >David Zuckerman</a>. I am mainly interested in Learning Theory and Complexity Theory. </p>
+      <p>I am a fourth-year Ph.D student in the <a href="https://www.cs.utexas.edu/research/theoretical-computer-science" class="highlight-link" target="_self">Computer Science Theory Group</a> at UT Austin. I am fortunate to be advised by <a href="https://www.cs.utexas.edu/~klivans/" class="highlight-link"  target="_self">Adam Klivans</a> and <a href="https://www.cs.utexas.edu/~diz/" target="_self" class="highlight-link" >David Zuckerman</a>. I am mainly interested in Learning Theory and Complexity Theory. </p>
       <p> I received a B.Tech+M.Tech in Computer Science from IIT Madras in 2022 where I was advised by <a href="http://www.cse.iitm.ac.in/~jayalal/" class="highlight-link"  target="_self"> Jayalal Sarma</a>.</p>
     </div>
   </div>
