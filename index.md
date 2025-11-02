@@ -14,21 +14,23 @@
     }
     .container {
       display: flex;
-      height: 100%;
+      min-height: 100vh;
     }
     .left {
       width: 30%;
       padding: 20px;
       box-sizing: border-box;
       position: fixed;
-      height: 100%;
+      height: 100vh;
       overflow-y: auto;
+      background-color: #ffffff;
     }
     .right {
       margin-left: 30%;
       padding: 40px;
       width: 70%;
       box-sizing: border-box;
+      background-color: #ffffff;
     }
     .profile-pic {
       max-width: 50%;
@@ -59,7 +61,7 @@
       <img src="/assets/website_pic.jpg" alt="Profile Picture" class="profile-pic"><br>
       <h1>Gautam Chandrasekaran</h1>
       <p>Email: gautamc at cs dot utexas dot edu</p>
-      <p><!--<a href="https://www.linkedin.com/in/gautam-chandrasekaran-5139a1188/">LinkedIn</a><br>-->
+      <p><a href="https://www.linkedin.com/in/gautam-chandrasekaran-5139a1188/">LinkedIn</a><br>
       <a href="https://scholar.google.com/citations?user=-CNU0tAAAAAJ&hl=en">Google Scholar</a></p>
     </div>
 
