@@ -9,13 +9,13 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow: hidden; /* prevent page-level scrollbar */
+      overflow: hidden;
       font-family: 'Inter', sans-serif;
       display: flex;
+      background-color: #ffffff; /* unified color */
     }
     .left {
       width: 30%;
-      background-color: #f5f5f5;
       padding: 20px;
       box-sizing: border-box;
       position: fixed;
@@ -27,7 +27,7 @@
       padding: 40px;
       width: 70%;
       height: 100vh;
-      overflow-y: scroll; /* only this part scrolls */
+      overflow-y: scroll;
       box-sizing: border-box;
     }
     .profile-pic {
