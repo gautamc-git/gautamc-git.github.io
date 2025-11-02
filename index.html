@@ -14,12 +14,12 @@
     }
     .container {
       display: flex;
-      justify-content: center; /* horizontally center the entire layout */
+      justify-content: center;
       min-height: 100vh;
     }
     .inner {
       display: flex;
-      width: 80%; /* controls total width of both columns */
+      width: 80%;
       max-width: 1100px;
     }
     .left {
@@ -31,13 +31,13 @@
       overflow-y: auto;
       background-color: #ffffff;
       text-align: center;
-      left: 10%; /* shifts layout horizontally toward center */
+      left: 10%;
     }
     .right {
       margin-left: 40%;
       padding: 40px 20px 40px 20px;
-      width: 45%;
-      max-width: 600px;
+      width: 50%; /* increased width to reduce wrapping */
+      max-width: 750px; /* wider text area */
       box-sizing: border-box;
       background-color: #ffffff;
     }
@@ -126,7 +126,7 @@
           </li>
 
           <li>
-            <b>Learning in online MDPs: is there a price for handling the communicating case?</b><br>
+            <b>Learning in Online MDPs: Is there a Price for Handling the Communicating Case?</b><br>
             Gautam Chandrasekaran, Ambuj Tewari<br>
             <em>UAI 2023</em><br>
             <a href="https://arxiv.org/abs/2111.02024">arXiv</a>
