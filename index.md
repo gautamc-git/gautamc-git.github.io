@@ -5,14 +5,16 @@
   <title>Gautam Chandrasekaran</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-    body {
+    html, body {
       margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden; /* prevent page-level scrollbar */
       font-family: 'Inter', sans-serif;
       display: flex;
-      height: 100vh;
     }
     .left {
-      width: 35%;
+      width: 30%;
       background-color: #f5f5f5;
       padding: 20px;
       box-sizing: border-box;
@@ -21,15 +23,15 @@
       overflow-y: auto;
     }
     .right {
-      margin-left: 35%;
-      padding: 20px;
-      width: 65%;
+      margin-left: 30%;
+      padding: 40px;
+      width: 70%;
       height: 100vh;
-      overflow-y: scroll;
+      overflow-y: scroll; /* only this part scrolls */
       box-sizing: border-box;
     }
     .profile-pic {
-      max-width: 60%;
+      max-width: 50%;
       height: auto;
       border-radius: 8px;
       display: block;
@@ -39,6 +41,16 @@
       margin-bottom: 1.5em;
       line-height: 1.6;
     }
+    a {
+      color: #0033cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      margin-top: 60px;
+    }
   </style>
 </head>
 <body>
@@ -46,7 +58,8 @@
     <img src="/assets/website_pic.jpg" alt="Profile Picture" class="profile-pic"><br>
     <h1>Gautam Chandrasekaran</h1>
     <p>Email: gautamc at cs dot utexas dot edu</p>
-    <p><a href="https://www.linkedin.com/in/gautam-chandrasekaran-5139a1188/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=-CNU0tAAAAAJ&hl=en">Google Scholar</a></p>
+    <p><a href="https://www.linkedin.com/in/gautam-chandrasekaran-5139a1188/">LinkedIn</a><br>
+    <a href="https://scholar.google.com/citations?user=-CNU0tAAAAAJ&hl=en">Google Scholar</a></p>
   </div>
 
   <div class="right">
