@@ -10,7 +10,7 @@
       padding: 0;
       height: 100%;
       font-family: 'Inter', sans-serif;
-      background-color: #ffffff; /* unified soft color */
+      background-color: #ffffff;
       color: #222222;
     }
     .container {
@@ -30,7 +30,7 @@
       position: fixed;
       height: 100vh;
       overflow-y: auto;
-      background-color: transparent; /* same as body */
+      background-color: transparent;
       text-align: center;
       left: 10%;
     }
@@ -40,21 +40,22 @@
       width: 55%;
       max-width: 850px;
       box-sizing: border-box;
-      background-color: transparent; /* same as body */
+      background-color: transparent;
     }
     .profile-pic {
-      max-width: 55%; /* slightly larger picture */
+      max-width: 55%;
       height: auto;
       border-radius: 8px;
       display: block;
       margin: 0 auto 10px auto;
     }
-    ul li {
-      margin-bottom: 1.5em;
-      line-height: 1.6;
+    .publications li {
+      margin-bottom: 1em;
+      line-height: 1.45;
     }
     .teaching li {
       margin-bottom: 0.4em;
+      line-height: 1.6;
     }
     a {
       color: #0033aa;
@@ -64,7 +65,10 @@
       text-decoration: underline;
     }
     h2 {
-      margin-top: 60px;
+      margin-top: 36px;
+    }
+    .right > h2:first-child {
+      margin-top: 0;
     }
   </style>
 </head>
@@ -75,7 +79,7 @@
         <img src="/assets/website_pic.jpg" alt="Profile Picture" class="profile-pic"><br>
         <h1>Gautam Chandrasekaran</h1>
         <p>Email: gautamc at cs dot utexas dot edu</p>
-        <p><a href="https://scholar.google.com/citations?user=-CNU0tAAAAAJ&hl=en">Google Scholar</a></p>
+        <p><a href="https://scholar.google.com/citations?user=-CNU0tAAAAAJ&amp;hl=en">Google Scholar</a></p>
       </div>
 
       <div class="right">
@@ -86,87 +90,113 @@
 
         <p>I received a B.Tech+M.Tech in Computer Science from IIT Madras in 2022 where I was advised by <a href="http://www.cse.iitm.ac.in/~jayalal/">Jayalal Sarma</a>.</p>
 
-        <h2>Preprints</h2>
-        <ul>
+        <h2>Selected Publications</h2>
+        <ul class="publications">
+          <li>
+            <b>Quadratic Extractors</b><br>
+            Gautam Chandrasekaran, Jesse Goodman, David Zuckerman<br>
+            <em>Preprint</em> · <a href="https://eccc.weizmann.ac.il/report/2026/303/">ECCC</a>
+          </li>
+
           <li>
             <b>Low-Degree Learning from Localization Schemes</b><br>
             Gautam Chandrasekaran, Jason Gaitonde, Ankur Moitra, Arsen Vasilyan<br>
-            <em>Preprint</em><br>
-            <a href="https://arxiv.org/abs/2604.06109">arXiv</a>
+            <em>Preprint</em> · <a href="https://arxiv.org/abs/2604.06109">arXiv</a>
           </li>
 
-        </ul>
-
-        <h2>Publications</h2>
-        <ul>
-          
-          <li>
-            <b>Iterative Chow Filtering for Learning with Distribution Shift</b><br>
-            Gautam Chandrasekaran, Georgios Gkrinias, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan<br>
-            <em>NeurIPS 2026 (to appear)</em><br>
-            <a href="https://arxiv.org/abs/2605.17251">arXiv</a>
-          </li>
           <li>
             <b>Sparse Linear Regression is Easy on Random Supports</b><br>
             Gautam Chandrasekaran, Raghu Meka, Konstantinos Stavropoulos<br>
-            <em>STOC 2026</em><br>
-            <a href="https://arxiv.org/abs/2511.06211">arXiv</a>
-          </li>
-
-          <li>
-            <b>A Fully Polynomial-Time Algorithm for Robustly Learning Halfspaces over the Hypercube</b><br>
-            Gautam Chandrasekaran, Adam Klivans, Konstantinos Stavropoulos, Arsen Vasilyan<br>
-            <em>STOC 2026</em><br>
-            <a href="https://arxiv.org/abs/2511.07244">arXiv</a>
-          </li>
-
-          <li>
-            <b>Learning Juntas under Markov Random Fields</b><br>
-            Gautam Chandrasekaran, Adam Klivans<br>
-            <em>NeurIPS 2025</em><br>
-            <a href="https://arxiv.org/abs/2506.00764">arXiv</a>
+            <em>STOC 2026</em> · <a href="https://arxiv.org/abs/2511.06211">arXiv</a>
           </li>
 
           <li>
             <b>Learning the Sherrington-Kirkpatrick Model Even at Low Temperature</b><br>
             Gautam Chandrasekaran, Adam Klivans<br>
-            <em>STOC 2025</em><br>
-            <a href="https://arxiv.org/abs/2411.11174">arXiv</a>
+            <em>STOC 2025</em> · <a href="https://arxiv.org/abs/2411.11174">arXiv</a>
+          </li>
+
+          <li>
+            <b>Smoothed Analysis for Learning Concepts with Low Intrinsic Dimension</b><br>
+            Gautam Chandrasekaran, Adam Klivans, Vasilis Kontonis, Raghu Meka, Konstantinos Stavropoulos<br>
+            <em>COLT 2024</em> <b>(Best Paper Award)</b><br>
+            <em>TheoretiCS</em> · <a href="https://arxiv.org/abs/2407.00966">arXiv</a>
+          </li>
+        </ul>
+
+        <h2>All Publications</h2>
+        <ul class="publications">
+          <li>
+            <b>Quadratic Extractors</b><br>
+            Gautam Chandrasekaran, Jesse Goodman, David Zuckerman<br>
+            <em>Preprint</em> · <a href="https://eccc.weizmann.ac.il/report/2026/303/">ECCC</a>
+          </li>
+
+          <li>
+            <b>Low-Degree Learning from Localization Schemes</b><br>
+            Gautam Chandrasekaran, Jason Gaitonde, Ankur Moitra, Arsen Vasilyan<br>
+            <em>Preprint</em> · <a href="https://arxiv.org/abs/2604.06109">arXiv</a>
+          </li>
+
+          <li>
+            <b>Iterative Chow Filtering for Learning with Distribution Shift</b><br>
+            Gautam Chandrasekaran, Georgios Gkrinias, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan<br>
+            <em>NeurIPS 2026 (to appear)</em> · <a href="https://arxiv.org/abs/2605.17251">arXiv</a>
+          </li>
+
+          <li>
+            <b>Sparse Linear Regression is Easy on Random Supports</b><br>
+            Gautam Chandrasekaran, Raghu Meka, Konstantinos Stavropoulos<br>
+            <em>STOC 2026</em> · <a href="https://arxiv.org/abs/2511.06211">arXiv</a>
+          </li>
+
+          <li>
+            <b>A Fully Polynomial-Time Algorithm for Robustly Learning Halfspaces over the Hypercube</b><br>
+            Gautam Chandrasekaran, Adam Klivans, Konstantinos Stavropoulos, Arsen Vasilyan<br>
+            <em>STOC 2026</em> · <a href="https://arxiv.org/abs/2511.07244">arXiv</a>
+          </li>
+
+          <li>
+            <b>Learning Juntas under Markov Random Fields</b><br>
+            Gautam Chandrasekaran, Adam Klivans<br>
+            <em>NeurIPS 2025</em> · <a href="https://arxiv.org/abs/2506.00764">arXiv</a>
+          </li>
+
+          <li>
+            <b>Learning the Sherrington-Kirkpatrick Model Even at Low Temperature</b><br>
+            Gautam Chandrasekaran, Adam Klivans<br>
+            <em>STOC 2025</em> · <a href="https://arxiv.org/abs/2411.11174">arXiv</a>
           </li>
 
           <li>
             <b>Learning Neural Networks with Distribution Shift: Efficiently Certifiable Guarantees</b><br>
             Gautam Chandrasekaran, Adam Klivans, Lin Lin Lee, Konstantinos Stavropoulos<br>
-            <em>ICLR 2025</em><br>
-            <a href="https://arxiv.org/abs/2502.16021">arXiv</a>
+            <em>ICLR 2025</em> · <a href="https://arxiv.org/abs/2502.16021">arXiv</a>
           </li>
 
           <li>
             <b>Learning Noisy Halfspaces with a Margin: Massart is No Harder than Random</b><br>
             Gautam Chandrasekaran, Vasilis Kontonis, Konstantinos Stavropoulos, Kevin Tian<br>
-            <em>NeurIPS 2024 (Spotlight)</em><br>
-            <a href="https://arxiv.org/abs/2501.09851">arXiv</a>
+            <em>NeurIPS 2024 (Spotlight)</em> · <a href="https://arxiv.org/abs/2501.09851">arXiv</a>
           </li>
 
           <li>
             <b>Efficient Discrepancy Testing for Learning with Distribution Shift</b><br>
             Gautam Chandrasekaran, Adam Klivans, Vasilis Kontonis, Konstantinos Stavropoulos, Arsen Vasilyan<br>
-            <em>NeurIPS 2024</em><br>
-            <a href="https://arxiv.org/abs/2406.09373">arXiv</a>
+            <em>NeurIPS 2024</em> · <a href="https://arxiv.org/abs/2406.09373">arXiv</a>
           </li>
 
-<li>
-  <b>Smoothed Analysis for Learning Concepts with Low Intrinsic Dimension</b><br>
-  Gautam Chandrasekaran, Adam Klivans, Vasilis Kontonis, Raghu Meka, Konstantinos Stavropoulos<br>
-  <em>COLT 2024</em> <b>(Best Paper Award)</b><br>
-  <em>TheoretiCS</em><br>
-  <a href="http://arxiv.org/abs/2407.00966">arXiv</a>
-</li>
+          <li>
+            <b>Smoothed Analysis for Learning Concepts with Low Intrinsic Dimension</b><br>
+            Gautam Chandrasekaran, Adam Klivans, Vasilis Kontonis, Raghu Meka, Konstantinos Stavropoulos<br>
+            <em>COLT 2024</em> <b>(Best Paper Award)</b><br>
+            <em>TheoretiCS</em> · <a href="https://arxiv.org/abs/2407.00966">arXiv</a>
+          </li>
+
           <li>
             <b>Learning in Online MDPs: Is there a Price for Handling the Communicating Case?</b><br>
             Gautam Chandrasekaran, Ambuj Tewari<br>
-            <em>UAI 2023</em><br>
-            <a href="https://arxiv.org/abs/2111.02024">arXiv</a>
+            <em>UAI 2023</em> · <a href="https://arxiv.org/abs/2111.02024">arXiv</a>
           </li>
         </ul>
 
